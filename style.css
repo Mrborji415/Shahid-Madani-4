@@ -1,28 +1,55 @@
-.body{
+/* تنظیمات کلی */
+body {
     background-color: rgb(135, 122, 203);
+    margin: 0;
+    font-family: 'B Nazanin', Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
 }
 
-.header{
+/* استایل هدر */
+.header {
     text-align: center;
-    background-color: rgba(17, 18, 87, 0.723);
-    color: grey;
+    background-color: rgba(17, 18, 87, 0.8);
+    color: #ddd;
+    padding: 20px;
+    border-bottom: 5px solid #555;
 }
 
-
-.h1{
-    text-align: center;
-    
+.h1 {
+    margin: 0;
+    font-size: 2rem;
 }
 
+/* استایل بخش اصلی */
 .div01 {
-    height: 100px;
     background-color: #992b2b;
     border-radius: 15px;
-    text-align: center;
-    font-family: B Nazanin;
-    font-size: 20px;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
-}
-.eslami{
+/* استایل تصویر */
+.eslami {
     height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-right: 10px; /* فاصله از متن */
 }
+
+/* متن کنار تصویر */
+.et {
+    margin: 0;
+    font-size: 1.1rem;
+    text-align: right;
+    color: #f8e8e8;
+}
+

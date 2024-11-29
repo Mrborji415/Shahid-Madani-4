@@ -1,7 +1,28 @@
+.body{
+    background-color: rgb(135, 122, 203);
+}
+
+.header{
+    text-align: center;
+    background-color: rgba(17, 18, 87, 0.723);
+    color: grey;
+}
+
+
 .h1{
     text-align: center;
     
 }
-.head001{
-    color: blue;
+
+.div01 {
+    height: 100px;
+    background-color: #992b2b;
+    border-radius: 15px;
+    text-align: center;
+    font-family: B Nazanin;
+    font-size: 20px;
+
+}
+.eslami{
+    height: 100px;
 }
